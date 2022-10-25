@@ -11,6 +11,7 @@
 	<style type="text/css">
 		*{
 			margin: 0%;
+			padding: 0%;
 		}
 		.navbar{
 			border: 1px solid grey;
@@ -19,9 +20,10 @@
 		}
 		.navbar a{
 			text-decoration: none;
-			font-size: 21px;
+			font-size: 17px;
 			margin-left: 5%;
 			color: black;
+			font-family: 'Poppins', sans-serif;;
 		}
 		.navbar image{
 			vertical-align: middle;
@@ -44,7 +46,8 @@
 			text-align: center;
 			background-color: ghostwhite;
 			padding: 1%;
-			font-size: 20px;
+			font-size: 15px;
+			font-family: 'Poppins', sans-serif;;
 		}
 		.learn{
 			text-align: center;
@@ -60,13 +63,16 @@
 		.section1{
 			display: flex;
 			justify-content: space-between;
-			padding: 5% 0% 7% 10%;
+			padding: 5% 0% 5% 5%;
 		}
 		.button1{
 			background-color: black;
+			padding: 3%;
+			border-radius: 30px;
 			color: white;
-			padding: 4%;
-			border-radius: 20px;
+			width: 50%;	
+			margin: 2% 4% 2% 4%;
+			margin-top: 5%;	
 		}
 		.button1:hover{
 			background-color: white;
@@ -76,6 +82,51 @@
 			font-size: 20px;
 			margin: 5%;
 			font-family: 'Poppins', sans-serif;
+		}
+		.fa-brands{
+			margin-left: 4%;
+		}
+		.section2{
+			padding: 4% 5% 5% 5%;
+			background-color: #00baf2;
+			color: white;
+			font-size: 20px;
+			font-family:  'Poppins', sans-serif;
+		}
+		.display{
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 3%;
+			font-size: 18px;
+		}
+		.display1{
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 3%;
+			font-size: 18px;
+			margin-left: 4%;
+		}
+		.display img{
+			width: 55%;
+			margin:5% 0% 5% 7%;
+		}
+		.section3{
+			padding: 4% 5% 5% 5%;
+			background-color: #0f4a8a;
+			color: white;
+			font-size: 20px;
+			font-family:  'Poppins', sans-serif;
+		}
+		.section3 img{
+			width: 40%;
+		}
+		.h1{
+			font-family:  'Poppins', sans-serif;
+			margin-left: 5%;
+		}
+		.h2{
+			font-family:  'Poppins', sans-serif;
+			margin-left: 5%;
 		}
 	</style>
 </head>
@@ -91,13 +142,89 @@
 	</nav>
 		<p class="kyc">No Wallet KYC Required 😊 to pay using UPI on Paytm.<a class="learn"href="https://paytm.com/money-transfer">Learn more.</a></p>
 		<section class="section1">
-		<div class="div1">
-			<img class="image2"src="image2.png"/width="25%" alt="paytm image">
-			<h1>India's Most-loved</br>Payments App</h1>
-			<p>Recharge & pay bills, book flights & movie tickets,</br>open a savings account, invest in stocks & mutual</br>funds, and do a lot more.</p>
-			<br><button class="button1">Download Paytm App          <i class="fa-brands fa-apple"></i>         <i class="fa-brands fa-google-play"></i></button>
-		</div>
+			<div class="div1">
+					<img class="image2"src="image2.png"/width="25%" alt="paytm image">
+					<h1>India's Most-loved</br>Payments App</h1>
+					<p>Recharge & pay bills, book flights & movie tickets,</br>open a savings account, invest in stocks & mutual</br>funds, and do a lot more.</p>
+					<br><button class="button1">Download Paytm App<i class="fa-brands fa-apple"></i><i class="fa-brands fa-google-play"></i></button>
+			</div>
 			<img src="image3.png"/width="30%" alt="image3">
+		</section>
+	<section class="section2">
+		<h1 class="h1">Recharge & Pay Bills on Paytm.</h1>
+		<div class="display">
+			<div class="recharge">
+				<img src="image4.PNG">
+				<p>Recharge<br>prepaid<br>Mobile ></p>
+			</div>
+			<div class="rent">
+				<img src="image5.PNG">
+				<p>Pay<br>Rent<br>Pament ></p>
+			</div>
+			<div class="electricity">
+				<img src="image6.PNG">
+				<p>Pay<br>Electricity<br>Bill ></p>
+			</div>
+			<div class="dth">
+				<img src="image7.PNG">
+				<p>Recharge<br>DTH<br>Connection ></p>	
+			</div>
+			<div class="gas">
+				<img src="image8.PNG">
+				<p>Book<br>Gas<br>Cylinder ></p>
+			</div>
+			<div class="credit">
+				<img src="image9.PNG">
+				<p>Pay<br>Credit<br>Card Bill ></p>
+			</div>
+			<div class="services" style="width: 9%;">
+				<img src="image10.PNG">
+				<p>All<br>Payment<br>Services ></p>
+			</div>
+			</div>
+	</section>
+		<section class="section3">
+		<h1 class="h2">Book & Buy on Paytm.</h1>
+		<div class="display1">
+			<div class="movie tickets">
+				<img src="image11.PNG">
+				<p>Movie<br>Tickets ></p>
+			</div>
+			<div class="flight tickets">
+				<img src="image12.PNG">
+				<p>Flight<br>Tickets ></p>
+			</div>
+			<div class="bus tickets">
+				<img src="image13.PNG">
+				<p>Bus<br>Tickets ></p>
+			</div>
+			<div class="train tickets">
+				<img src="image14.PNG">
+				<p>Train<br>Tickets ></p>	
+			</div>
+			<div class="buy insurance">
+				<img src="image15.PNG">
+				<p>Buy<br>Insurance ></p>
+			</div>
+			<div class="international flights">
+				<img src="image16.PNG">
+				<p>International<br>Flights ></p>
+			</div>
+			<div class="invest in stocks" style="width: 13%;">
+				<img src="image17.PNG" width="100%">
+				<p>Invest<br>In Stocks ></p>
+			</div>
+			</div>
+		</section>
+		<section class="section4">
+			<h1>Paytm Payment Instruments</h1>
+			<div class="div1">
+					<img class="image2"src="image18.PNG"/width="7%">
+					<h1>The Fastest Way to Pay In-store & Online.</br></h1>
+					<p>Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.</br></p>
+					<br><button class="button1">Download Paytm App<i class="fa-brands fa-apple"></i><i class="fa-brands fa-google-play"></i></button>
+			</div>
+			<img src="image19.PNG"/width="30%">
 		</section>
 </body>
 </html>
